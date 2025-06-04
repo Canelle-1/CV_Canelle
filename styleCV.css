@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+header{
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.05);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    display: flex;
+    color: #5a01a8
+    
+    
+}
+.header-img {
+    width: 40px; /* adapte selon la taille souhaitée */
+    height: auto;
+}
+.image{
+    width: 20px; /* adapte selon la taille souhaitée */
+    height: 20px;
+}
+
+section {
+    
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.05);
+    margin-top: 20px;
+    width: 78%; /* largeur de la section */
+    margin-left: auto; /* centrer horizontalement */
+    margin-right: auto; /* centrer horizontalement */
+} 
+
+
+h2 {
+    color: #5a01a8;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+
+}
+
+
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    padding: 8px 18px;
+    background-color: rgb(229, 200, 246);
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    border: none;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    margin: 2px 0;
+}
+.btn:hover {
+    background-color: #dc98dc;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Container styles for left and right sections */
+.containerleftright {
+    display: flex;
+    justify-content: space-between; /* espace entre les sections */
+    margin: 20px auto; /* marge autour de la section */
+    width: 80%; /* largeur de la section */
+    font-size: 16px; /* taille de la police */
+}
+.left {
+    width: 45%; /* largeur de chaque section */
+    padding: 20px; /* espacement interne */
+    background-color: white; /* Couleur de fond */
+
+    
+    border-radius: 10px;/*arrondir les coins*/
+}
+.right {
+    width: 45%; /* largeur de chaque section */
+    padding: 20px; /* espacement interne */
+    background-color: white; /* Couleur de fond */
+    
+    border-radius: 10px;/*arrondir les coins*/
+    height: auto;
+
+}
+
+
+
+
+
+/* List styles */
+ul {
+    padding-left: 20px;
+}
+
+/* Image styles */
+.center-img {
+    display: block;
+    margin-left: 40%;
+    
+}
+
+
+
+/* Footer styles */
+
+.footer1 {
+    background-color:rgb(229, 200, 246);
+    padding: 10px;
+    text-align: center;
+
+    box-shadow: 0 0 8px rgba(0,0,0,0.05);
+    color: black; /* Couleur du texte */
+    text-align: center; /* Alignement centré */
+    border-radius: 20px; /* Coins arrondis */
+   
+}
+#button-myfooter {
+     display: inline-block;
+    padding: 8px 18px;
+    background-color: rgb(229, 200, 246);
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    margin: 2px 0;
+}
+#button-myfooter:hover {
+    background-color: #dc98dc;
+    color: #fff;
+    text-decoration: none;
+}

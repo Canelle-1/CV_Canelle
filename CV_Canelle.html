@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<meta charset="UTF-8">   
+<head>
+   
+    <title>CV Canelle Rault</title>
+    <link rel="stylesheet" href="styleCV.css">
+    <link rel= "shortcut icon" href="Image_Jojo2.jpeg">
+</head>
+<body>
+
+<header class="header-title">
+    <img src="fleur.2.jpeg" alt="icone fleur" class="header-img">
+    <h1>Canelle Rault</h1>
+    <img src="fleur.2.jpeg" alt="icone fleur" class="header-img">
+    
+</header>
+<h2 style="text-align: center;">Ingénieure en Génie Industriel 4.0</h2>
+
+<div class="containerleftright">
+    <div class="left">
+    <h2>Informations </h2>
+    <p><img src="Thelephone.jpeg"alt="Thelephone"class="image">     <b>Téléphone</b>  : 06 65 72 18 72</p>
+    <p><img src="mail.jpeg"alt="mail"class="image">     <b>Email :</b> <a class="btn" href="mailto:canellrault@gmail.com">canellrault@gmail.com</a></p>
+    <p><img src="linkedin.jpeg"alt="linkedin"class="image">     <b>LinkedIn :</b> <a href="https://www.linkedin.com/in/canelle-rault-7b7258258/" class="btn" >Canelle Rault</a></p>
+    <p><img src="carte.jpeg"alt="carte" class="image">     <b>Adresse :</b> 16 rue de Tourville, 56100 Lorient</p>
+
+    </div>
+
+    <div class="right">
+    <h2> Présentation</h2>
+    <p>J'ai le sens des responsabilités, je suis organisée et sais faire preuve de rigueur et d'autonomie.</p>
+    <p><img src ="date.png"alt ="icone date" width="20" height="20">   <b>Date de naissance :</b> 04/11/2004 (20 ans)</p>
+    <p><img src ="voiture.jpeg"alt ="icone voiture" width="20" height="20">   <b>Permis :</b> B - Véhicule personnel</p>
+    <p><img src ="cv.jpeg"alt ="icone cv" width="20" height="20">   <b>CV :</b>    
+        <a href="CV_Canelle_RAULT.pdf" class="btn">CV Canelle RAULT</a>
+    </p>
+    </div>
+
+
+</div>
+
+
+<div class="containerleftright">
+
+    
+        <div class="right">
+    <h2>Formation</h2>
+    <ul> <!-- Liste -->
+        <li>Génie Industriel 4.0 - 2024-2027 - ENSIBS Lorient</li>
+        <a href="https://www-ensibs.univ-ubs.fr/fr/index.html"class="btn">ENSIBS</a>
+        <li>DUT Génie Industriel et Maintenance - 2022-2024 - IUT de Lorient</li>
+        <a href="https://www.univ-ubs.fr/fr/nos-facultes-instituts-ecole/iut-de-lorient.html" class="btn">IUT de Lorient</a>
+        <li>Baccalauréat technologique STI2D - 2022 (Mention très bien) - Lycée Jeanne d'Arc St Ivy, Pontivy</li>
+        <a href="https://www.lyceejasi.fr/" class="btn">Lycée Jeanne d'Arc</a>
+        
+        
+    </ul>
+    </div>
+
+
+
+    <div class="left">
+    <h2>Compétences techniques</h2>
+    <ul>
+        <li><b>Mécanique :</b> RDM, CAO (SolidWorks)</li>
+        <li><b>Automatisme :</b> Grafcet, Hypervision</li>
+        <li><b>Programmation :</b> HTML, PHP, Julia, TIA PORTAL</li>
+    </ul>
+</div>
+
+
+</div>
+<div class="containerleftright">
+    <div class="right">
+
+    <h2>Compétences personnelles</h2>
+    <ul>
+        <li>Autonome</li>
+        <li>Dynamique</li>
+        <li>Capacité d'adaptation</li>
+        <li>Sens de l'organisation</li>
+    </ul>
+
+    </div>
+    <div class="left">
+    <h2>Expériences professionnelles</h2>
+    <ul>
+        <li><b>Apprentie Ingénieure Méthodes</b> (sept. 2024 - sept. 2027) - Atlantem, Noyal Pontivy</li>
+        <li><b>Stage en maintenance</b> (mars à mai 2024) - Altho, Saint-Gérand</li>
+        <li><b>Employée restauration collective</b> (août 2023) - Flunch, Pontivy</li>
+    </ul>
+    </div>
+</div>
+<section>
+    <h2>Certifications</h2>
+    <ul>
+        <li>PSC1 - Prévention et secours civiques (2022)</li>
+        <li>Citoyen de sécurité civile (2022)</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Centres d'intérêt</h2>
+    <ul>
+        <li>Voyages (Europe, Afrique du Nord) <img src ="avion.png"alt ="icone avion" width="20" height="20"> </li>
+    </ul>
+
+    
+    <div >
+        <script src="scriptCV.js"></script>
+        <img id="monImage" width="30%" class="center-img" >
+
+        <button type="button" class="btn"onclick="photo('Prague')">Prague</button>
+        <button type="button" class="btn"onclick="photo('Toulouse')">Toulouse</button>
+        <button type="button" class="btn"onclick="photo('Athènes')">Athènes</button>
+        <button type="button" class="btn"onclick="photo('Porto')">Porto</button>
+        <button type="button" class="btn"onclick="photo('Olbia')">Olbia</button>
+        <button type="button" class="btn"onclick="photo('Naples')">Naples</button>
+    </div>
+
+
+    <ul>
+        <li>Lecture <img src ="livre.png"alt ="icone livre" width="20" height="20"> </li>
+    </ul>
+
+    
+</section>
+
+
+
+
+
+
+<div class="footer1">
+        
+        
+       <h3> Dernière consultation :</h3>
+        <button type ="btn" id="button-myfooter" onclick="document.getElementById('consultation').innerHTML =new Date().toLocaleString('fr-FR',{weekday:'long',year:'numeric',month:'long',day:'numeric',
+        hour:'2-digit',minute:'2-digit',second:'2-digit'})">Cliquer ici</button>
+        <!--TotalLocalString permet  d'afficher la date sous forme de chaine de caractère-->
+        <p id="consultation"></p>
+        <p>© 2025 Canelle RAULT. Tous droits réservés.</p>
+
+    </div>
+</body> 
+</html>
